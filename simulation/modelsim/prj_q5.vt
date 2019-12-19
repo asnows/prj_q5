@@ -1,0 +1,245 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "12/13/2019 14:18:10"
+                                                                                
+// Verilog Test Bench template for design : prj_q5
+// 
+// Simulation tool : ModelSim (Verilog)
+// 
+
+`timescale 1 ps/ 1 ps
+module prj_q5_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg C10_CLK50M ;
+reg ECAT_RXC_MII;
+reg ECAT_RXD0_MII;
+reg ECAT_RXD1_MII;
+reg ECAT_RXD2_MII;
+reg ECAT_RXD3_MII;
+reg ECAT_RXDV_MII;
+reg ECAT_RXER_MII;
+reg ECAT_TXC_MII;
+reg FAN_Feedback;
+reg FPGA_BCD_1;
+reg FPGA_BCD_2;
+reg FPGA_BCD_4;
+reg FPGA_BCD_8;
+reg FPGA_CLK25M_OUT;
+reg FPGA_I2C1_LED_INT;
+reg treg_FPGA_I2C1_SDA;
+reg treg_FPGA_MDIO;
+reg [15:0] FPGA_XIN;
+reg FPGA_nRST;
+reg GPIO2_14;
+reg HRESET;
+reg [1:0] treg_IFC_BE = 2'b11;
+reg IFC_CLK;
+reg [15:0] treg_IFC_DATA = 16'd0;
+reg IFC_RXF_N;
+reg IFC_TXE_N;
+reg PMC_PWR_STATUS;
+reg RESET_OUT;
+reg RESET_REQ_OUT;
+reg TEMP_ALERT;
+reg TEMP_CRIT_OUT;
+reg V5_DEC_INT;
+reg V24_DEC_INT;
+// wires                                               
+wire CPU_3V3_TRST;
+wire EC1_PHY_RST;
+wire EC2_PHY_RST;
+wire EC3_PHY_RST;
+wire ECAT_COL_MII;
+wire ECAT_CRS_MII;
+wire ECAT_TXD0_MII;
+wire ECAT_TXD1_MII;
+wire ECAT_TXD2_MII;
+wire ECAT_TXD3_MII;
+wire ECAT_TXEN_MII;
+wire FAN_PWM;
+wire FPGA_I2C1_SCL;
+wire FPGA_I2C1_SDA;
+wire FPGA_IQR4;
+wire FPGA_MDC;
+wire FPGA_MDIO;
+wire FPGA_OUTPUT_EN;
+wire FPGA_PART1_CLK_3V3;
+wire FPGA_PART1_DIN_3V3;
+wire FPGA_PART2_CLK_3V3;
+wire FPGA_PART2_DIN_3V3;
+wire FPGA_RST_EC4;
+wire FPGA_RST_USBHUB;
+wire [15:0]  FPGA_YOUT;
+wire GPIO2_15;
+wire [1:0]  IFC_BE;
+wire [15:0]  IFC_DATA;
+wire IFC_OE_N;
+wire IFC_RD_N;
+wire IFC_WR_N;
+wire POWER_STBY;
+wire RESIN;
+wire STKT_RST;
+wire TQ_POWER_EN;
+wire VCC1V8_EN;
+wire VCC3V3_FPGA_EN;
+wire VCC3V3_OTHER_EN;
+wire VCC_PHY_EN;
+
+// assign statements (if any)                          
+assign FPGA_I2C1_SDA = treg_FPGA_I2C1_SDA;
+assign FPGA_MDIO = treg_FPGA_MDIO;
+assign IFC_BE = treg_IFC_BE;
+assign IFC_DATA = treg_IFC_DATA;
+prj_q5 i1 (
+// port map - connection between master ports and signals/registers   
+	.C10_CLK50M(C10_CLK50M),
+	.CPU_3V3_TRST(CPU_3V3_TRST),
+	.EC1_PHY_RST(EC1_PHY_RST),
+	.EC2_PHY_RST(EC2_PHY_RST),
+	.EC3_PHY_RST(EC3_PHY_RST),
+	.ECAT_COL_MII(ECAT_COL_MII),
+	.ECAT_CRS_MII(ECAT_CRS_MII),
+	.ECAT_RXC_MII(ECAT_RXC_MII),
+	.ECAT_RXD0_MII(ECAT_RXD0_MII),
+	.ECAT_RXD1_MII(ECAT_RXD1_MII),
+	.ECAT_RXD2_MII(ECAT_RXD2_MII),
+	.ECAT_RXD3_MII(ECAT_RXD3_MII),
+	.ECAT_RXDV_MII(ECAT_RXDV_MII),
+	.ECAT_RXER_MII(ECAT_RXER_MII),
+	.ECAT_TXC_MII(ECAT_TXC_MII),
+	.ECAT_TXD0_MII(ECAT_TXD0_MII),
+	.ECAT_TXD1_MII(ECAT_TXD1_MII),
+	.ECAT_TXD2_MII(ECAT_TXD2_MII),
+	.ECAT_TXD3_MII(ECAT_TXD3_MII),
+	.ECAT_TXEN_MII(ECAT_TXEN_MII),
+	.FAN_Feedback(FAN_Feedback),
+	.FAN_PWM(FAN_PWM),
+	.FPGA_BCD_1(FPGA_BCD_1),
+	.FPGA_BCD_2(FPGA_BCD_2),
+	.FPGA_BCD_4(FPGA_BCD_4),
+	.FPGA_BCD_8(FPGA_BCD_8),
+	.FPGA_CLK25M_OUT(FPGA_CLK25M_OUT),
+	.FPGA_I2C1_LED_INT(FPGA_I2C1_LED_INT),
+	.FPGA_I2C1_SCL(FPGA_I2C1_SCL),
+	.FPGA_I2C1_SDA(FPGA_I2C1_SDA),
+	.FPGA_IQR4(FPGA_IQR4),
+	.FPGA_MDC(FPGA_MDC),
+	.FPGA_MDIO(FPGA_MDIO),
+	.FPGA_OUTPUT_EN(FPGA_OUTPUT_EN),
+	.FPGA_PART1_CLK_3V3(FPGA_PART1_CLK_3V3),
+	.FPGA_PART1_DIN_3V3(FPGA_PART1_DIN_3V3),
+	.FPGA_PART2_CLK_3V3(FPGA_PART2_CLK_3V3),
+	.FPGA_PART2_DIN_3V3(FPGA_PART2_DIN_3V3),
+	.FPGA_RST_EC4(FPGA_RST_EC4),
+	.FPGA_RST_USBHUB(FPGA_RST_USBHUB),
+	.FPGA_XIN(FPGA_XIN),
+	.FPGA_YOUT(FPGA_YOUT),
+	.FPGA_nRST(FPGA_nRST),
+	.GPIO2_14(GPIO2_14),
+	.GPIO2_15(GPIO2_15),
+	.HRESET(HRESET),
+	.IFC_BE(IFC_BE),
+	.IFC_CLK(IFC_CLK),
+	.IFC_DATA(IFC_DATA),
+	.IFC_OE_N(IFC_OE_N),
+	.IFC_RD_N(IFC_RD_N),
+	.IFC_RXF_N(IFC_RXF_N),
+	.IFC_TXE_N(IFC_TXE_N),
+	.IFC_WR_N(IFC_WR_N),
+	.PMC_PWR_STATUS(PMC_PWR_STATUS),
+	.POWER_STBY(POWER_STBY),
+	.RESET_OUT(RESET_OUT),
+	.RESET_REQ_OUT(RESET_REQ_OUT),
+	.RESIN(RESIN),
+	.STKT_RST(STKT_RST),
+	.TEMP_ALERT(TEMP_ALERT),
+	.TEMP_CRIT_OUT(TEMP_CRIT_OUT),
+	.TQ_POWER_EN(TQ_POWER_EN),
+	.V5_DEC_INT(V5_DEC_INT),
+	.V24_DEC_INT(V24_DEC_INT),
+	.VCC1V8_EN(VCC1V8_EN),
+	.VCC3V3_FPGA_EN(VCC3V3_FPGA_EN),
+	.VCC3V3_OTHER_EN(VCC3V3_OTHER_EN),
+	.VCC_PHY_EN(VCC_PHY_EN)
+);
+
+
+
+
+initial                                                
+begin   
+#0 C10_CLK50M = 1'b0; 
+#0 IFC_CLK = 1'b0;
+
+
+
+                                              
+#10000000 $stop;                                  
+$display("Running testbench");                       
+end    
+
+initial
+begin
+#0 IFC_RXF_N = 1'b1;
+#0 IFC_TXE_N = 1'b1;
+
+#100000 IFC_RXF_N = 1'b0;
+#200000 IFC_RXF_N = 1'b1;
+
+
+#300000 IFC_TXE_N = 1'b0;
+#400000 IFC_TXE_N = 1'b1;
+
+
+end
+
+
+
+                                                
+always                                                            
+begin                                                  
+#  10000  C10_CLK50M = 1'b0;
+#  10000  C10_CLK50M = 1'b1;
+                      
+@eachvec;                                              
+// --> end                                             
+end                                                    
+
+
+
+
+always    
+begin
+	#  5000 IFC_CLK <= ~IFC_CLK;
+end
+
+always@(posedge IFC_CLK)
+begin
+	treg_IFC_DATA <= treg_IFC_DATA + 1'b1;
+end
+
+
+
+endmodule
+
+

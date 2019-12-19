@@ -1,0 +1,286 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/WorkSpace/project/FPGA/prj_q5/prj_q5/simulation/modelsim
+T_opt
+!s110 1576222435
+VgaR4mgOMDe;R92KU?JD9c3
+Z1 04 14 4 work prj_q5_vlg_tst fast 0
+=2-085700f4aee5-5df33ee2-35b-4380
+Z2 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1576459550
+VAj<;f6D<=bQG=GikYK6QX0
+R1
+=2-085700f4aee5-5df6dd1d-d9-1920
+R2
+R3
+n@_opt1
+R4
+viic_opr
+Z5 !s110 1576459459
+!i10b 1
+!s100 =ggDF`Gj=DJhzc6gBaWKN0
+!s11b RYj8O66nzmgoi3`m=W01E1
+IEB]0RF7]he3O]@ZiBB`m33
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1573172060
+8E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/IIC/iic_opr.v
+FE:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/IIC/iic_opr.v
+L0 2
+Z7 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z8 !s108 1576459459.000000
+!s107 E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/IIC/iic_opr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/IIC|E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/IIC/iic_opr.v|
+!i113 0
+Z9 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/IIC -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vmdio_cfg
+R5
+!i10b 1
+!s100 6RaBfaVS^d06J>aj82dL50
+!s11b X4]f;49K]@N]UfM^_h9:R1
+IYUfDoFo>m_^CaZ`ek^VEO0
+R6
+R0
+w1574734754
+8E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_cfg.v
+FE:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_cfg.v
+L0 23
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_cfg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO|E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_cfg.v|
+!i113 0
+R9
+Z10 !s92 -vlog01compat -work work +incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vmdio_opr
+R5
+!i10b 1
+!s100 4H5o36gnWTX=;FV@azZY]1
+!s11b K`ADRhLMjZn6AN`2AYA>h0
+IBT`3cnbd:_gcF^EF3FX[?1
+R6
+R0
+w1574732036
+8E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_opr.v
+FE:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_opr.v
+L0 37
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_opr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO|E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_opr.v|
+!i113 0
+R9
+R10
+R3
+vprj_q5
+R5
+!i10b 1
+!s100 QnW`R0]]5^XJY4WC5iHMX1
+!s11b P6E]mmB_kJ2b47>2X;bzo3
+ITiCb<[@978@X3>>loY=2n3
+R6
+R0
+w1576225616
+8E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v
+FE:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v
+L0 12
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src|E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v|
+!i113 0
+R9
+!s92 -vlog01compat -work work +incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vprj_q5_vlg_tst
+Z11 !s110 1576459460
+!i10b 1
+!s100 OX7C:hZ5gQohci2MM>NCK2
+!s11b A_6KXZ>;1JB;Rc2Pf<]Wz1
+IgcFAUz2M:GCW`Db1]?:372
+R6
+R0
+w1576221055
+8E:/WorkSpace/project/FPGA/prj_q5/prj_q5/simulation/modelsim/prj_q5.vt
+FE:/WorkSpace/project/FPGA/prj_q5/prj_q5/simulation/modelsim/prj_q5.vt
+L0 28
+R7
+r1
+!s85 0
+31
+Z12 !s108 1576459460.000000
+!s107 E:/WorkSpace/project/FPGA/prj_q5/prj_q5/simulation/modelsim/prj_q5.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/simulation/modelsim|E:/WorkSpace/project/FPGA/prj_q5/prj_q5/simulation/modelsim/prj_q5.vt|
+!i113 0
+R9
+!s92 -vlog01compat -work work +incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/simulation/modelsim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vsysclk_source
+R11
+!i10b 1
+!s100 2R[ToT1>]h;8T]G;AmXOm1
+!s11b 8[gi4[X>788NZgN7Mle`K0
+I8UW>WDD8Ml4XUk@42Hal93
+R6
+R0
+w1572590363
+8E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP/sysclk_source.v
+FE:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP/sysclk_source.v
+Z13 L0 39
+R7
+r1
+!s85 0
+31
+R12
+!s107 E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP/sysclk_source.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP|E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP/sysclk_source.v|
+!i113 0
+R9
+!s92 -vlog01compat -work work +incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vsysclk_source_altpll
+R11
+!i10b 1
+!s100 AN2VIT<;C`6=BKj_f=;EX0
+!s11b 7]n3JCV?Df4gSD9_^D4HB1
+I?[maLg:HWn:Tmh_miE@Og2
+R6
+R0
+w1573094081
+8E:/WorkSpace/project/FPGA/prj_q5/prj_q5/db/sysclk_source_altpll.v
+FE:/WorkSpace/project/FPGA/prj_q5/prj_q5/db/sysclk_source_altpll.v
+L0 29
+R7
+r1
+!s85 0
+31
+R12
+!s107 E:/WorkSpace/project/FPGA/prj_q5/prj_q5/db/sysclk_source_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/db|E:/WorkSpace/project/FPGA/prj_q5/prj_q5/db/sysclk_source_altpll.v|
+!i113 0
+R9
+!s92 -vlog01compat -work work +incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vTM1640_cfg
+R5
+!i10b 1
+!s100 RE^R?bIX:Q[XEd^H7R9683
+!s11b h]1gmECKjhTYhE?j0TTXP0
+I^`cGj^kAcBb]4H;f5>AYR1
+R6
+R0
+w1573121728
+8E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_cfg.v
+FE:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_cfg.v
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_cfg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640|E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_cfg.v|
+!i113 0
+R9
+Z14 !s92 -vlog01compat -work work +incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@t@m1640_cfg
+vTM1640_driver
+R5
+!i10b 1
+!s100 aD^<D@?_lOJSSl:OOIh:41
+!s11b 5cXjnl9Ce8Z@lJiB2l7na2
+IlDA=_L4g=5O>?]8mJ2;ah0
+R6
+R0
+w1573119300
+8E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_driver.v
+FE:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_driver.v
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_driver.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640|E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_driver.v|
+!i113 0
+R9
+R14
+R3
+n@t@m1640_driver
+vusb_master
+!s110 1576459458
+!i10b 1
+!s100 6`<6C=zgzMeXF5X[6[^c<3
+!s11b =aTF4A;:1iR0Rd@UbzD1Z1
+ID:bald?fLM6eO]cgozL`E3
+R6
+R0
+w1576458822
+8E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v
+FE:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1576459458.000000
+!s107 E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB|E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v|
+!i113 0
+R9
+!s92 -vlog01compat -work work +incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vUSB_RAM
+R11
+!i10b 1
+!s100 F30<bFF9_nm95zTnY457o3
+!s11b D4>JZo[dbmanl56d@Hn7^3
+IYnOISI29bodKBR=[7Xh6U2
+R6
+R0
+w1576458528
+8E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.v
+FE:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.v
+R13
+R7
+r1
+!s85 0
+31
+R12
+!s107 E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5|E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.v|
+!i113 0
+R9
+!s92 -vlog01compat -work work +incdir+E:/WorkSpace/project/FPGA/prj_q5/prj_q5 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@u@s@b_@r@a@m

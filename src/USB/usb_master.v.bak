@@ -1,0 +1,24 @@
+module usb_master (
+  //GPIO Control Signals
+  input wire HRST_N,
+  input wire SRST_N,
+  input wire MLTCN, // 1: Multi Channel Mode, 0: 245 Mode 
+  input wire STREN, // 1: Streaming Test,     0: Loopback Test
+  input wire ERDIS, // 1: Disable received data sequence check  
+  input wire R_OOB,
+  input wire W_OOB,  
+  input wire WAKEUP_N, 
+  // FIFO Slave interface 
+  input wire  CLK,
+  inout wire [31:0] DATA,
+  inout wire [3:0] BE,
+  input wire  RXF_N,    // ACK_N
+  input wire  TXE_N,
+  output wire  WR_N,    // REQ_N
+  output wire  SIWU_N,
+  output wire  RD_N,
+  output wire  OE_N,
+  // Miscellaneous Interface 
+  output wire [3:0] debug_sig,
+  output wire [3:0] STRER
+);

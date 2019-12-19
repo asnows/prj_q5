@@ -1,0 +1,92 @@
+E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_cfg.v {1 {vlog -work work -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_cfg.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module TM1640_cfg
+
+Top level modules:
+	TM1640_cfg
+
+} {} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.bsf {0 {vlog -work work -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.bsf
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+** Error: (vlog-13069) E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.bsf(21): near "(": syntax error, unexpected '(', expecting class.
+
+} {3.0 4.0} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_cfg.v {1 {vlog -work work -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_cfg.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module mdio_cfg
+
+Top level modules:
+	mdio_cfg
+
+} {} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_opr.v {1 {vlog -work work -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_opr.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module mdio_opr
+
+Top level modules:
+	mdio_opr
+
+} {} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.v {1 {vlog -work work -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module USB_RAM
+
+Top level modules:
+	USB_RAM
+
+} {} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP/sysclk_source.v {1 {vlog -work work -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP/sysclk_source.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module sysclk_source
+
+Top level modules:
+	sysclk_source
+
+} {} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.cmp {0 {vcom -work work -2002 -explicit -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.cmp
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+** Error: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.cmp(16): near "component": syntax error
+
+} {4.0 5.0} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM_bb.v {1 {vlog -work work -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM_bb.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module USB_RAM
+
+Top level modules:
+	USB_RAM
+
+} {} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP/sysclk_source_bb.v {1 {vlog -work work -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP/sysclk_source_bb.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module sysclk_source
+
+Top level modules:
+	sysclk_source
+
+} {} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.inc {0 {vcom -work work -2002 -explicit -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.inc
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+** Error: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.inc(16): near "FUNCTION": syntax error
+
+} {4.0 5.0} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v {1 {vlog -work work -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module prj_q5
+
+Top level modules:
+	prj_q5
+
+} {} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/IIC/iic_opr.v {1 {vlog -work work -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/IIC/iic_opr.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module iic_opr
+
+Top level modules:
+	iic_opr
+
+} {} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_driver.v {1 {vlog -work work -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_driver.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module TM1640_driver
+
+Top level modules:
+	TM1640_driver
+
+} {} {}} E:/WorkSpace/project/FPGA/prj_q5/prj_q5/simulation/modelsim/prj_q5.vt {1 {vlog -work work -vopt -stats=none E:/WorkSpace/project/FPGA/prj_q5/prj_q5/simulation/modelsim/prj_q5.vt
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module prj_q5_vlg_tst
+
+Top level modules:
+	prj_q5_vlg_tst
+
+} {} {}}

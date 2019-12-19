@@ -1,0 +1,326 @@
+ -- Copyright (C) 2017  Intel Corporation. All rights reserved.
+ -- Your use of Intel Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Intel Program License 
+ -- Subscription Agreement, the Intel Quartus Prime License Agreement,
+ -- the Intel FPGA IP License Agreement, or other applicable license
+ -- agreement, including, without limitation, that your use is for
+ -- the sole purpose of programming logic devices manufactured by
+ -- Intel and sold by Intel or its authorized distributors.  Please
+ -- refer to the applicable agreement for further details.
+ -- 
+ -- This is a Quartus Prime output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus Prime input file. This file cannot be used
+ -- to make Quartus Prime pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus Prime help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --                  Bank 1:       3.3V
+ --                  Bank 2:       3.3V
+ --                  Bank 3:       3.3V
+ --                  Bank 4:       3.3V
+ --                  Bank 5:       3.3V
+ --                  Bank 6:       3.3V
+ --                  Bank 7:       3.3V
+ --                  Bank 8:       3.3V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --                  It can also be used to report unused dedicated pins. The connection
+ --                  on the board for unused dedicated pins depends on whether this will
+ --                  be used in a future design. One example is device migration. When
+ --                  using device migration, refer to the device pin-tables. If it is a
+ --                  GND pin in the pin table or if it will not be used in a future design
+ --                  for another purpose the it MUST be connected to GND. If it is an unused
+ --                  dedicated pin, then it can be connected to a valid signal on the board
+ --                  (low, high, or toggling) if that signal is required for a different
+ --                  revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --                  This pin should be connected to GND. It may also be connected  to a
+ --                  valid signal  on the board  (low, high, or toggling)  if that signal
+ --                  is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin. Connect each pin marked GND* directly to GND
+ --                  or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+CHIP  "prj_q5"  ASSIGNED TO AN: 10CL025YU256C6G
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+VCCIO8                       : A1        : power  :                   : 3.3V    : 8         :                
+FPGA_XIN[12]                 : A2        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+FPGA_XIN[11]                 : A3        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+FPGA_XIN[14]                 : A4        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+ECAT_CRS_MII                 : A5        : output : 3.3-V LVCMOS      :         : 8         : Y              
+FPGA_XIN[7]                  : A6        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+FPGA_XIN[4]                  : A7        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+GND+                         : A8        :        :                   :         : 8         :                
+GND+                         : A9        :        :                   :         : 7         :                
+FPGA_BCD_8                   : A10       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+EC2_PHY_RST                  : A11       : output : 3.3-V LVCMOS      :         : 7         : Y              
+FPGA_YOUT[10]                : A12       : output : 3.3-V LVCMOS      :         : 7         : Y              
+FPGA_YOUT[4]                 : A13       : output : 3.3-V LVCMOS      :         : 7         : Y              
+FPGA_YOUT[6]                 : A14       : output : 3.3-V LVCMOS      :         : 7         : Y              
+FPGA_BCD_2                   : A15       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+VCCIO7                       : A16       : power  :                   : 3.3V    : 7         :                
+FAN_PWM                      : B1        : output : 3.3-V LVCMOS      :         : 1         : Y              
+GND                          : B2        : gnd    :                   :         :           :                
+FPGA_XIN[10]                 : B3        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+FPGA_XIN[13]                 : B4        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B5        :        :                   :         : 8         :                
+ECAT_RXER_MII                : B6        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+FPGA_XIN[5]                  : B7        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+GND+                         : B8        :        :                   :         : 8         :                
+GND+                         : B9        :        :                   :         : 7         :                
+FPGA_YOUT[15]                : B10       : output : 3.3-V LVCMOS      :         : 7         : Y              
+FPGA_CLK25M_OUT              : B11       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+FPGA_YOUT[11]                : B12       : output : 3.3-V LVCMOS      :         : 7         : Y              
+FPGA_YOUT[5]                 : B13       : output : 3.3-V LVCMOS      :         : 7         : Y              
+FPGA_YOUT[7]                 : B14       : output : 3.3-V LVCMOS      :         : 7         : Y              
+GND                          : B15       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B16       :        :                   :         : 6         :                
+~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : C1        : input  : 3.3-V LVTTL       :         : 1         : N              
+FPGA_PART2_DIN_3V3           : C2        : output : 3.3-V LVCMOS      :         : 1         : Y              
+FPGA_XIN[9]                  : C3        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+VCCIO8                       : C4        : power  :                   : 3.3V    : 8         :                
+GND                          : C5        : gnd    :                   :         :           :                
+FPGA_XIN[6]                  : C6        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+VCCIO8                       : C7        : power  :                   : 3.3V    : 8         :                
+FPGA_XIN[0]                  : C8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+FPGA_YOUT[14]                : C9        : output : 3.3-V LVCMOS      :         : 7         : Y              
+VCCIO7                       : C10       : power  :                   : 3.3V    : 7         :                
+FPGA_BCD_1                   : C11       : input  : 3.3-V LVCMOS      :         : 7         : Y              
+GND                          : C12       : gnd    :                   :         :           :                
+VCCIO7                       : C13       : power  :                   : 3.3V    : 7         :                
+FPGA_YOUT[0]                 : C14       : output : 3.3-V LVCMOS      :         : 7         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C15       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C16       :        :                   :         : 6         :                
+FPGA_I2C1_LED_INT            : D1        : input  : 3.3-V LVCMOS      :         : 1         : Y              
+~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : D2        : input  : 3.3-V LVTTL       :         : 1         : N              
+FPGA_XIN[8]                  : D3        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+VCCD_PLL3                    : D4        : power  :                   : 1.2V    :           :                
+GND                          : D5        : gnd    :                   :         :           :                
+FPGA_XIN[15]                 : D6        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+GND                          : D7        : gnd    :                   :         :           :                
+FPGA_XIN[1]                  : D8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+FPGA_YOUT[13]                : D9        : output : 3.3-V LVCMOS      :         : 7         : Y              
+GND                          : D10       : gnd    :                   :         :           :                
+FPGA_YOUT[2]                 : D11       : output : 3.3-V LVCMOS      :         : 7         : Y              
+FPGA_YOUT[3]                 : D12       : output : 3.3-V LVCMOS      :         : 7         : Y              
+VCCD_PLL2                    : D13       : power  :                   : 1.2V    :           :                
+FPGA_YOUT[1]                 : D14       : output : 3.3-V LVCMOS      :         : 7         : Y              
+FPGA_PART1_CLK_3V3           : D15       : output : 3.3-V LVCMOS      :         : 6         : Y              
+FPGA_PART1_DIN_3V3           : D16       : output : 3.3-V LVCMOS      :         : 6         : Y              
+C10_CLK50M                   : E1        : input  : 3.3-V LVCMOS      :         : 1         : Y              
+GND+                         : E2        :        :                   :         : 1         :                
+VCCIO1                       : E3        : power  :                   : 3.3V    : 1         :                
+GND                          : E4        : gnd    :                   :         :           :                
+GNDA3                        : E5        : gnd    :                   :         :           :                
+ECAT_COL_MII                 : E6        : output : 3.3-V LVCMOS      :         : 8         : Y              
+FPGA_RST_EC4                 : E7        : output : 3.3-V LVCMOS      :         : 8         : Y              
+FPGA_XIN[2]                  : E8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+FPGA_YOUT[12]                : E9        : output : 3.3-V LVCMOS      :         : 7         : Y              
+FPGA_YOUT[9]                 : E10       : output : 3.3-V LVCMOS      :         : 7         : Y              
+FPGA_YOUT[8]                 : E11       : output : 3.3-V LVCMOS      :         : 7         : Y              
+GNDA2                        : E12       : gnd    :                   :         :           :                
+GND                          : E13       : gnd    :                   :         :           :                
+VCCIO6                       : E14       : power  :                   : 3.3V    : 6         :                
+GND+                         : E15       :        :                   :         : 6         :                
+GND+                         : E16       :        :                   :         : 6         :                
+GND                          : F1        : gnd    :                   :         :           :                
+GND                          : F2        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F3        :        :                   :         : 1         :                
+nSTATUS                      : F4        :        :                   :         : 1         :                
+VCCA3                        : F5        : power  :                   : 2.5V    :           :                
+GND                          : F6        : gnd    :                   :         :           :                
+VCCINT                       : F7        : power  :                   : 1.2V    :           :                
+FPGA_XIN[3]                  : F8        : input  : 3.3-V LVCMOS      :         : 8         : Y              
+FPGA_BCD_4                   : F9        : input  : 3.3-V LVCMOS      :         : 7         : Y              
+GND                          : F10       : gnd    :                   :         :           :                
+VCCINT                       : F11       : power  :                   : 1.2V    :           :                
+VCCA2                        : F12       : power  :                   : 2.5V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F13       :        :                   :         : 6         :                
+FPGA_PART2_CLK_3V3           : F14       : output : 3.3-V LVCMOS      :         : 6         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F15       :        :                   :         : 6         :                
+~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : F16       : output : 3.3-V LVTTL       :         : 6         : N              
+FAN_Feedback                 : G1        : input  : 3.3-V LVCMOS      :         : 1         : Y              
+FPGA_OUTPUT_EN               : G2        : output : 3.3-V LVCMOS      :         : 1         : Y              
+VCCIO1                       : G3        : power  :                   : 3.3V    : 1         :                
+GND                          : G4        : gnd    :                   :         :           :                
+GND                          : G5        : gnd    :                   :         :           :                
+VCCINT                       : G6        : power  :                   : 1.2V    :           :                
+VCCINT                       : G7        : power  :                   : 1.2V    :           :                
+VCCINT                       : G8        : power  :                   : 1.2V    :           :                
+VCCINT                       : G9        : power  :                   : 1.2V    :           :                
+VCCINT                       : G10       : power  :                   : 1.2V    :           :                
+GND                          : G11       : gnd    :                   :         :           :                
+MSEL2                        : G12       :        :                   :         : 6         :                
+GND                          : G13       : gnd    :                   :         :           :                
+VCCIO6                       : G14       : power  :                   : 3.3V    : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G15       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G16       :        :                   :         : 6         :                
+~ALTERA_DCLK~                : H1        : output : 3.3-V LVTTL       :         : 1         : N              
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : H2        : input  : 3.3-V LVTTL       :         : 1         : N              
+altera_reserved_tck          : H3        : input  : 3.3-V LVTTL       :         : 1         : N              
+altera_reserved_tdi          : H4        : input  : 3.3-V LVTTL       :         : 1         : N              
+nCONFIG                      : H5        :        :                   :         : 1         :                
+VCCINT                       : H6        : power  :                   : 1.2V    :           :                
+GND                          : H7        : gnd    :                   :         :           :                
+GND                          : H8        : gnd    :                   :         :           :                
+GND                          : H9        : gnd    :                   :         :           :                
+GND                          : H10       : gnd    :                   :         :           :                
+VCCINT                       : H11       : power  :                   : 1.2V    :           :                
+MSEL1                        : H12       :        :                   :         : 6         :                
+MSEL0                        : H13       :        :                   :         : 6         :                
+CONF_DONE                    : H14       :        :                   :         : 6         :                
+GND                          : H15       : gnd    :                   :         :           :                
+GND                          : H16       : gnd    :                   :         :           :                
+IFC_DATA[1]                  : J1        : bidir  : 3.3-V LVCMOS      :         : 2         : Y              
+IFC_DATA[0]                  : J2        : bidir  : 3.3-V LVCMOS      :         : 2         : Y              
+nCE                          : J3        :        :                   :         : 1         :                
+altera_reserved_tdo          : J4        : output : 3.3-V LVTTL       :         : 1         : N              
+altera_reserved_tms          : J5        : input  : 3.3-V LVTTL       :         : 1         : N              
+VCCINT                       : J6        : power  :                   : 1.2V    :           :                
+GND                          : J7        : gnd    :                   :         :           :                
+GND                          : J8        : gnd    :                   :         :           :                
+GND                          : J9        : gnd    :                   :         :           :                
+GND                          : J10       : gnd    :                   :         :           :                
+GND                          : J11       : gnd    :                   :         :           :                
+VCCINT                       : J12       : power  :                   : 1.2V    :           :                
+FPGA_MDC                     : J13       : output : 3.3-V LVCMOS      :         : 5         : Y              
+FPGA_MDIO                    : J14       : bidir  : 3.3-V LVCMOS      :         : 5         : Y              
+FPGA_nRST                    : J15       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+FPGA_RST_USBHUB              : J16       : output : 3.3-V LVCMOS      :         : 5         : Y              
+IFC_DATA[3]                  : K1        : bidir  : 3.3-V LVCMOS      :         : 2         : Y              
+IFC_DATA[2]                  : K2        : bidir  : 3.3-V LVCMOS      :         : 2         : Y              
+VCCIO2                       : K3        : power  :                   : 3.3V    : 2         :                
+GND                          : K4        : gnd    :                   :         :           :                
+IFC_WR_N                     : K5        : output : 3.3-V LVCMOS      :         : 2         : Y              
+GND                          : K6        : gnd    :                   :         :           :                
+VCCINT                       : K7        : power  :                   : 1.2V    :           :                
+GND                          : K8        : gnd    :                   :         :           :                
+VCCINT                       : K9        : power  :                   : 1.2V    :           :                
+VCCINT                       : K10       : power  :                   : 1.2V    :           :                
+VCCINT                       : K11       : power  :                   : 1.2V    :           :                
+GND                          : K12       : gnd    :                   :         :           :                
+GND                          : K13       : gnd    :                   :         :           :                
+VCCIO5                       : K14       : power  :                   : 3.3V    : 5         :                
+ECAT_RXD0_MII                : K15       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+ECAT_RXD1_MII                : K16       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+IFC_DATA[5]                  : L1        : bidir  : 3.3-V LVCMOS      :         : 2         : Y              
+IFC_DATA[4]                  : L2        : bidir  : 3.3-V LVCMOS      :         : 2         : Y              
+IFC_CLK                      : L3        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+IFC_BE[1]                    : L4        : bidir  : 3.3-V LVCMOS      :         : 2         : Y              
+VCCA1                        : L5        : power  :                   : 2.5V    :           :                
+VCCINT                       : L6        : power  :                   : 1.2V    :           :                
+V24_DEC_INT                  : L7        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+VCC3V3_OTHER_EN              : L8        : output : 3.3-V LVCMOS      :         : 3         : Y              
+GND                          : L9        : gnd    :                   :         :           :                
+GND                          : L10       : gnd    :                   :         :           :                
+GND                          : L11       : gnd    :                   :         :           :                
+VCCA4                        : L12       : power  :                   : 2.5V    :           :                
+ECAT_RXDV_MII                : L13       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+ECAT_RXC_MII                 : L14       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+ECAT_RXD2_MII                : L15       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+ECAT_RXD3_MII                : L16       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+GND+                         : M1        :        :                   :         : 2         :                
+GND+                         : M2        :        :                   :         : 2         :                
+VCCIO2                       : M3        : power  :                   : 3.3V    : 2         :                
+GND                          : M4        : gnd    :                   :         :           :                
+GNDA1                        : M5        : gnd    :                   :         :           :                
+TEMP_ALERT                   : M6        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+EC3_PHY_RST                  : M7        : output : 3.3-V LVCMOS      :         : 3         : Y              
+VCC_PHY_EN                   : M8        : output : 3.3-V LVCMOS      :         : 3         : Y              
+VCCINT                       : M9        : power  :                   : 1.2V    :           :                
+FPGA_I2C1_SDA                : M10       : bidir  : 3.3-V LVCMOS      :         : 4         : Y              
+VCCINT                       : M11       : power  :                   : 1.2V    :           :                
+GNDA4                        : M12       : gnd    :                   :         :           :                
+GND                          : M13       : gnd    :                   :         :           :                
+VCCIO5                       : M14       : power  :                   : 3.3V    : 5         :                
+GND+                         : M15       :        :                   :         : 5         :                
+GND+                         : M16       :        :                   :         : 5         :                
+IFC_RXF_N                    : N1        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+IFC_TXE_N                    : N2        : input  : 3.3-V LVCMOS      :         : 2         : Y              
+RESET_OUT                    : N3        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+VCCD_PLL1                    : N4        : power  :                   : 1.2V    :           :                
+TQ_POWER_EN                  : N5        : output : 3.3-V LVCMOS      :         : 3         : Y              
+PMC_PWR_STATUS               : N6        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+GND                          : N7        : gnd    :                   :         :           :                
+VCC3V3_FPGA_EN               : N8        : output : 3.3-V LVCMOS      :         : 3         : Y              
+IFC_DATA[6]                  : N9        : bidir  : 3.3-V LVCMOS      :         : 4         : Y              
+GND                          : N10       : gnd    :                   :         :           :                
+FPGA_I2C1_SCL                : N11       : output : 3.3-V LVCMOS      :         : 4         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N12       :        :                   :         : 4         :                
+VCCD_PLL4                    : N13       : power  :                   : 1.2V    :           :                
+ECAT_TXC_MII                 : N14       : input  : 3.3-V LVCMOS      :         : 5         : Y              
+ECAT_TXD0_MII                : N15       : output : 3.3-V LVCMOS      :         : 5         : Y              
+ECAT_TXD1_MII                : N16       : output : 3.3-V LVCMOS      :         : 5         : Y              
+IFC_DATA[14]                 : P1        : bidir  : 3.3-V LVCMOS      :         : 2         : Y              
+IFC_DATA[15]                 : P2        : bidir  : 3.3-V LVCMOS      :         : 2         : Y              
+HRESET                       : P3        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+VCCIO3                       : P4        : power  :                   : 3.3V    : 3         :                
+GND                          : P5        : gnd    :                   :         :           :                
+TEMP_CRIT_OUT                : P6        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+VCCIO3                       : P7        : power  :                   : 3.3V    : 3         :                
+STKT_RST                     : P8        : output : 3.3-V LVCMOS      :         : 3         : Y              
+IFC_DATA[13]                 : P9        : bidir  : 3.3-V LVCMOS      :         : 4         : Y              
+VCCIO4                       : P10       : power  :                   : 3.3V    : 4         :                
+IFC_RD_N                     : P11       : output : 3.3-V LVCMOS      :         : 4         : Y              
+GND                          : P12       : gnd    :                   :         :           :                
+VCCIO4                       : P13       : power  :                   : 3.3V    : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P14       :        :                   :         : 4         :                
+ECAT_TXEN_MII                : P15       : output : 3.3-V LVCMOS      :         : 5         : Y              
+ECAT_TXD3_MII                : P16       : output : 3.3-V LVCMOS      :         : 5         : Y              
+IFC_BE[0]                    : R1        : bidir  : 3.3-V LVCMOS      :         : 2         : Y              
+GND                          : R2        : gnd    :                   :         :           :                
+RESET_REQ_OUT                : R3        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+RESIN                        : R4        : output : 3.3-V LVCMOS      :         : 3         : Y              
+EC1_PHY_RST                  : R5        : output : 3.3-V LVCMOS      :         : 3         : Y              
+GPIO2_14                     : R6        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+FPGA_IQR4                    : R7        : output : 3.3-V LVCMOS      :         : 3         : Y              
+GND+                         : R8        :        :                   :         : 3         :                
+GND+                         : R9        :        :                   :         : 4         :                
+IFC_DATA[7]                  : R10       : bidir  : 3.3-V LVCMOS      :         : 4         : Y              
+IFC_DATA[9]                  : R11       : bidir  : 3.3-V LVCMOS      :         : 4         : Y              
+IFC_DATA[11]                 : R12       : bidir  : 3.3-V LVCMOS      :         : 4         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R13       :        :                   :         : 4         :                
+IFC_OE_N                     : R14       : output : 3.3-V LVCMOS      :         : 4         : Y              
+GND                          : R15       : gnd    :                   :         :           :                
+ECAT_TXD2_MII                : R16       : output : 3.3-V LVCMOS      :         : 5         : Y              
+VCCIO3                       : T1        : power  :                   : 3.3V    : 3         :                
+CPU_3V3_TRST                 : T2        : output : 3.3-V LVCMOS      :         : 3         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T3        :        :                   :         : 3         :                
+POWER_STBY                   : T4        : output : 3.3-V LVCMOS      :         : 3         : Y              
+GPIO2_15                     : T5        : output : 3.3-V LVCMOS      :         : 3         : Y              
+V5_DEC_INT                   : T6        : input  : 3.3-V LVCMOS      :         : 3         : Y              
+VCC1V8_EN                    : T7        : output : 3.3-V LVCMOS      :         : 3         : Y              
+GND+                         : T8        :        :                   :         : 3         :                
+GND+                         : T9        :        :                   :         : 4         :                
+IFC_DATA[8]                  : T10       : bidir  : 3.3-V LVCMOS      :         : 4         : Y              
+IFC_DATA[10]                 : T11       : bidir  : 3.3-V LVCMOS      :         : 4         : Y              
+IFC_DATA[12]                 : T12       : bidir  : 3.3-V LVCMOS      :         : 4         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T13       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T14       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T15       :        :                   :         : 4         :                
+VCCIO4                       : T16       : power  :                   : 3.3V    : 4         :                

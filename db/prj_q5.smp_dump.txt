@@ -1,0 +1,28 @@
+
+State Machine - |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|state
+Name state.STATE_IDEL state.STATE_CMD3 state.STATE_CMD2 state.STATE_CMD1 
+state.STATE_CMD1 0 0 0 0 
+state.STATE_CMD2 0 0 1 1 
+state.STATE_CMD3 0 1 0 1 
+state.STATE_IDEL 1 0 0 1 
+
+State Machine - |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|iic_opr:iic_opr_I|state
+Name state.IDEL state.STOP state.SEND state.START 
+state.START 0 0 0 0 
+state.SEND 0 0 1 1 
+state.STOP 0 1 0 1 
+state.IDEL 1 0 0 1 
+
+State Machine - |prj_q5|TM1640_driver:TM1640_PART1_i|state
+Name state.STATE_IDEL state.STATE_CMD3 state.STATE_CMD2 state.STATE_CMD1 
+state.STATE_CMD1 0 0 0 0 
+state.STATE_CMD2 0 0 1 1 
+state.STATE_CMD3 0 1 0 1 
+state.STATE_IDEL 1 0 0 1 
+
+State Machine - |prj_q5|TM1640_driver:TM1640_PART1_i|iic_opr:iic_opr_I|state
+Name state.IDEL state.STOP state.SEND state.START 
+state.START 0 0 0 0 
+state.SEND 0 0 1 1 
+state.STOP 0 1 0 1 
+state.IDEL 1 0 0 1 

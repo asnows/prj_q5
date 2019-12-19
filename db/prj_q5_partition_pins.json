@@ -1,0 +1,353 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "IFC_WR_N",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_RD_N",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_OE_N",
+					"strict" : false
+				},
+				{
+					"name" : "VCC_PHY_EN",
+					"strict" : false
+				},
+				{
+					"name" : "ECAT_TXD2_MII",
+					"strict" : false
+				},
+				{
+					"name" : "ECAT_TXD0_MII",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_RST_EC4",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_I2C1_SCL",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_PART1_CLK_3V3",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_PART1_DIN_3V3",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_PART2_CLK_3V3",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_PART2_DIN_3V3",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[8]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[9]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[10]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[11]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[12]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[13]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[14]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_YOUT[15]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_MDC",
+					"strict" : false
+				},
+				{
+					"name" : "FAN_PWM",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_DATA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_BE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_BE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_MDIO",
+					"strict" : false
+				},
+				{
+					"name" : "ECAT_TXC_MII",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_RXF_N",
+					"strict" : false
+				},
+				{
+					"name" : "IFC_TXE_N",
+					"strict" : false
+				},
+				{
+					"name" : "C10_CLK50M",
+					"strict" : false
+				},
+				{
+					"name" : "ECAT_RXD1_MII",
+					"strict" : false
+				},
+				{
+					"name" : "ECAT_RXC_MII",
+					"strict" : false
+				},
+				{
+					"name" : "ECAT_RXDV_MII",
+					"strict" : false
+				},
+				{
+					"name" : "ECAT_RXD3_MII",
+					"strict" : false
+				},
+				{
+					"name" : "ECAT_RXD0_MII",
+					"strict" : false
+				},
+				{
+					"name" : "ECAT_RXD2_MII",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_BCD_2",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_BCD_1",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_BCD_4",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_BCD_8",
+					"strict" : false
+				},
+				{
+					"name" : "FAN_Feedback",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[13]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[14]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[12]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[15]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[7]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[10]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_nRST",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[9]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[8]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[11]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
