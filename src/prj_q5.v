@@ -194,7 +194,7 @@ module prj_q5
  
  
  
-	localparam ECAT_TEST = 8'd0, FAN_TEST = 8'd1,PYH_POW_TEST = 8'd2, HGPIO_TEST = 8'd3,X86_USB_TEST = 8'd4,ALL_LED_TEST = 8'd9,ALL_LED_TEST2 = 8'd10;
+	localparam ECAT_TEST = 8'd0, FAN_TEST = 8'd1,PYH_POW_TEST = 8'd2, HGPIO_TEST = 8'd3,X86_USB_TEST = 8'd4,X86_CTRL_GPIO = 8'd5,ALL_LED_TEST = 8'd9,ALL_LED_TEST2 = 8'd10;
 	localparam FLICK_0_5S = 32'd2500000;
 	localparam FLICK_1TMIS = FLICK_0_5S *10 *2;
 	localparam NUMS = 256,NUMS2 = 100;	
@@ -234,6 +234,8 @@ module prj_q5
 	reg[8:0] x_count[15:0];
 	reg usb_read_flg = 1'b0;
 	reg usb_write_flg = 1'b0;
+	wire[15:0] usb_OUT;
+	wire[15:0] FPGA_YOUT_reg;
 	
 	
 	
@@ -242,7 +244,8 @@ module prj_q5
 	assign VCC3V3_OTHER_EN = 1'b1;
 	assign FAN_PWM         	= fan_pwm_reg;    
 	assign VCC_PHY_EN 		= (BCD_switch == PYH_POW_TEST )?phy_gpio:1'b1;
-	assign FPGA_YOUT 			= {hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k}; 
+	assign FPGA_YOUT_reg 	= {hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k,hz_200k}; 
+	assign FPGA_YOUT     	= (BCD_switch == X86_CTRL_GPIO )?usb_OUT: FPGA_YOUT_reg;
 	assign FPGA_OUTPUT_EN = 1'b0;
 	
 	assign ECAT_TXEN_MII = 1'b1;
@@ -595,6 +598,22 @@ endgenerate
 				
 			end
 			
+			
+//			X86_CTRL_GPIO:
+//			begin
+//				if(tvaild == 1'b1)
+//				begin
+//					 tdata <= 8'd0;
+//				end
+//				else			
+//				begin
+//					tdata <= {6'd0,usb_write_flg,usb_read_flg};
+//				end
+//				
+//			end
+			
+			
+			
 			ALL_LED_TEST:
 			begin
 				tdata <= 8'hff;	
@@ -728,18 +747,29 @@ reg [7:0 ] usb_count = 8'd0;
 //);
 
 
-usb_master usb_master_i
+usb_master 
+#(
+
+	.X86_CTRL_GPIO(X86_CTRL_GPIO)
+
+) 
+usb_master_i
 (
 
   .CLK (IFC_CLK),
   .resetn(sys_resetn),
+  .BCD_switch(BCD_switch),
   .DATA(IFC_DATA),
   .BE  (IFC_BE),
   .RXF_N(IFC_RXF_N	),    // ACK_N
   .TXE_N(IFC_TXE_N	),
   .WR_N(IFC_WR_N	),     // REQ_N
   .RD_N(IFC_RD_N	),
-  .OE_N(IFC_OE_N	)
+  .OE_N(IFC_OE_N	),
+  .X_IN(FPGA_XIN),
+  .Y_OUT(usb_OUT)
+
+  
 
 );
 

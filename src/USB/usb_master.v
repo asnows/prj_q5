@@ -1,16 +1,26 @@
-module usb_master 
+module usb_master
+#(
+
+parameter X86_CTRL_GPIO = 8'd5
+
+) 
 (
 
   // FIFO Slave interface 
   input wire  CLK,
   input resetn,
+  input wire [7:0] BCD_switch,
   inout wire [15:0] DATA,
   inout wire [1:0]  BE,
   input wire  RXF_N,    // ACK_N
   input wire  TXE_N,
   output wire  WR_N,    // REQ_N
   output wire  RD_N,
-  output wire  OE_N
+  output wire  OE_N,
+  input  wire [15:0] X_IN,
+  output wire [15:0] Y_OUT
+  
+  
 
 );
 
@@ -39,15 +49,24 @@ reg  OE_N_reg = 1'b1;
 reg[1:0]  RD_N_dly ;
 wire rdclock;
 wire wrclock;
+wire [15:0] data_reg;
 
 
 assign wrclock = CLK;
 assign rdclock = CLK;
 
-assign data = DATA;
-assign DATA = (TXE_N == 1'b0) ?q  : 16'hzzzz;
-assign BE = (TXE_N == 1'b0) ?2'b11 : 2'bzz;
 
+
+
+assign data = DATA;
+assign DATA = (TXE_N == 1'b0) ?data_reg  : 16'hzzzz;
+
+assign Y_OUT = DATA;
+assign data_reg = (BCD_switch == X86_CTRL_GPIO)? X_IN : q;
+
+
+
+assign BE = (TXE_N == 1'b0) ?2'b11 : 2'bzz;
 assign WR_N = WR_N_reg;
 
 assign RD_N = RD_N_reg;

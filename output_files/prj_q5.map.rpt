@@ -1,5 +1,5 @@
 Analysis & Synthesis report for prj_q5
-Tue Dec 17 08:52:56 2019
+Thu Dec 26 08:49:18 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
 
 
@@ -32,21 +32,22 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
  24. Source assignments for mdio_cfg:mdio_cfg_I
  25. Source assignments for sld_signaltap:auto_signaltap_0
  26. Parameter Settings for User Entity Instance: sysclk_source:sysclk_source_inst|altpll:altpll_component
- 27. Parameter Settings for User Entity Instance: usb_master:usb_master_i|USB_RAM:USB_RAM_i|altsyncram:altsyncram_component
- 28. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
- 29. altpll Parameter Settings by Entity Instance
- 30. altsyncram Parameter Settings by Entity Instance
- 31. Port Connectivity Checks: "mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I"
- 32. Port Connectivity Checks: "mdio_cfg:mdio_cfg_I"
- 33. Port Connectivity Checks: "TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i"
- 34. Port Connectivity Checks: "TM1640_driver:TM1640_PART1_i"
- 35. Port Connectivity Checks: "sysclk_source:sysclk_source_inst"
- 36. Signal Tap Logic Analyzer Settings
- 37. Post-Synthesis Netlist Statistics for Top Partition
- 38. Elapsed Time Per Partition
- 39. Connections to In-System Debugging Instance "auto_signaltap_0"
- 40. Analysis & Synthesis Messages
- 41. Analysis & Synthesis Suppressed Messages
+ 27. Parameter Settings for User Entity Instance: usb_master:usb_master_i
+ 28. Parameter Settings for User Entity Instance: usb_master:usb_master_i|USB_RAM:USB_RAM_i|altsyncram:altsyncram_component
+ 29. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
+ 30. altpll Parameter Settings by Entity Instance
+ 31. altsyncram Parameter Settings by Entity Instance
+ 32. Port Connectivity Checks: "mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I"
+ 33. Port Connectivity Checks: "mdio_cfg:mdio_cfg_I"
+ 34. Port Connectivity Checks: "TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i"
+ 35. Port Connectivity Checks: "TM1640_driver:TM1640_PART1_i"
+ 36. Port Connectivity Checks: "sysclk_source:sysclk_source_inst"
+ 37. Signal Tap Logic Analyzer Settings
+ 38. Post-Synthesis Netlist Statistics for Top Partition
+ 39. Elapsed Time Per Partition
+ 40. Connections to In-System Debugging Instance "auto_signaltap_0"
+ 41. Analysis & Synthesis Messages
+ 42. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -72,13 +73,13 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Dec 17 08:52:56 2019           ;
+; Analysis & Synthesis Status        ; Successful - Thu Dec 26 08:49:18 2019           ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Standard Edition ;
 ; Revision Name                      ; prj_q5                                          ;
 ; Top-level Entity Name              ; prj_q5                                          ;
 ; Family                             ; Cyclone 10 LP                                   ;
-; Total logic elements               ; 3,843                                           ;
-;     Total combinational functions  ; 2,286                                           ;
+; Total logic elements               ; 3,877                                           ;
+;     Total combinational functions  ; 2,320                                           ;
 ;     Dedicated logic registers      ; 2,684                                           ;
 ; Total registers                    ; 2684                                            ;
 ; Total pins                         ; 115                                             ;
@@ -278,16 +279,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 ; Resource                                    ; Usage                                                                                                         ;
 +---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
-; Estimated Total logic elements              ; 3,843                                                                                                         ;
+; Estimated Total logic elements              ; 3,877                                                                                                         ;
 ;                                             ;                                                                                                               ;
-; Total combinational functions               ; 2286                                                                                                          ;
+; Total combinational functions               ; 2320                                                                                                          ;
 ; Logic element usage by number of LUT inputs ;                                                                                                               ;
-;     -- 4 input functions                    ; 962                                                                                                           ;
-;     -- 3 input functions                    ; 566                                                                                                           ;
+;     -- 4 input functions                    ; 966                                                                                                           ;
+;     -- 3 input functions                    ; 596                                                                                                           ;
 ;     -- <=2 input functions                  ; 758                                                                                                           ;
 ;                                             ;                                                                                                               ;
 ; Logic elements by mode                      ;                                                                                                               ;
-;     -- normal mode                          ; 1668                                                                                                          ;
+;     -- normal mode                          ; 1702                                                                                                          ;
 ;     -- arithmetic mode                      ; 618                                                                                                           ;
 ;                                             ;                                                                                                               ;
 ; Total registers                             ; 2684                                                                                                          ;
@@ -304,8 +305,8 @@ refer to the applicable agreement for further details.
 ;                                             ;                                                                                                               ;
 ; Maximum fan-out node                        ; sysclk_source:sysclk_source_inst|altpll:altpll_component|sysclk_source_altpll:auto_generated|wire_pll1_clk[0] ;
 ; Maximum fan-out                             ; 1855                                                                                                          ;
-; Total fan-out                               ; 18277                                                                                                         ;
-; Average fan-out                             ; 3.42                                                                                                          ;
+; Total fan-out                               ; 18383                                                                                                         ;
+; Average fan-out                             ; 3.41                                                                                                          ;
 +---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 
 
@@ -314,14 +315,14 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                ; Entity Name                       ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
-; |prj_q5                                                                                                                                 ; 2286 (672)          ; 2684 (398)                ; 462848      ; 0            ; 0       ; 0         ; 115  ; 0            ; |prj_q5                                                                                                                                                                                                                                                                                                                                            ; prj_q5                            ; work         ;
+; |prj_q5                                                                                                                                 ; 2320 (687)          ; 2684 (398)                ; 462848      ; 0            ; 0       ; 0         ; 115  ; 0            ; |prj_q5                                                                                                                                                                                                                                                                                                                                            ; prj_q5                            ; work         ;
 ;    |TM1640_cfg:TM1640_1_cfg|                                                                                                            ; 363 (78)            ; 256 (26)                  ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|TM1640_cfg:TM1640_1_cfg                                                                                                                                                                                                                                                                                                                    ; TM1640_cfg                        ; work         ;
 ;       |TM1640_driver:TM1640_drive_i|                                                                                                    ; 285 (163)           ; 230 (182)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i                                                                                                                                                                                                                                                                                       ; TM1640_driver                     ; work         ;
 ;          |iic_opr:iic_opr_I|                                                                                                            ; 122 (122)           ; 48 (48)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|iic_opr:iic_opr_I                                                                                                                                                                                                                                                                     ; iic_opr                           ; work         ;
 ;    |TM1640_driver:TM1640_PART1_i|                                                                                                       ; 287 (165)           ; 230 (182)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|TM1640_driver:TM1640_PART1_i                                                                                                                                                                                                                                                                                                               ; TM1640_driver                     ; work         ;
 ;       |iic_opr:iic_opr_I|                                                                                                               ; 122 (122)           ; 48 (48)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|TM1640_driver:TM1640_PART1_i|iic_opr:iic_opr_I                                                                                                                                                                                                                                                                                             ; iic_opr                           ; work         ;
-;    |mdio_cfg:mdio_cfg_I|                                                                                                                ; 86 (46)             ; 50 (35)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|mdio_cfg:mdio_cfg_I                                                                                                                                                                                                                                                                                                                        ; mdio_cfg                          ; work         ;
-;       |mdio_opr:mdio_opr_I|                                                                                                             ; 40 (40)             ; 15 (15)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I                                                                                                                                                                                                                                                                                                    ; mdio_opr                          ; work         ;
+;    |mdio_cfg:mdio_cfg_I|                                                                                                                ; 89 (48)             ; 50 (35)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|mdio_cfg:mdio_cfg_I                                                                                                                                                                                                                                                                                                                        ; mdio_cfg                          ; work         ;
+;       |mdio_opr:mdio_opr_I|                                                                                                             ; 41 (41)             ; 15 (15)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I                                                                                                                                                                                                                                                                                                    ; mdio_opr                          ; work         ;
 ;    |sld_hub:auto_hub|                                                                                                                   ; 126 (1)             ; 91 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                           ; sld_hub                           ; altera_sld   ;
 ;       |alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric| ; 125 (0)             ; 91 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric                                                                                                                                                                                           ; alt_sld_fab_with_jtag_input       ; altera_sld   ;
 ;          |alt_sld_fab:instrumentation_fabric|                                                                                           ; 125 (0)             ; 91 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                                                                                        ; alt_sld_fab                       ; alt_sld_fab  ;
@@ -472,7 +473,7 @@ refer to the applicable agreement for further details.
 ;    |sysclk_source:sysclk_source_inst|                                                                                                   ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|sysclk_source:sysclk_source_inst                                                                                                                                                                                                                                                                                                           ; sysclk_source                     ; work         ;
 ;       |altpll:altpll_component|                                                                                                         ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|sysclk_source:sysclk_source_inst|altpll:altpll_component                                                                                                                                                                                                                                                                                   ; altpll                            ; work         ;
 ;          |sysclk_source_altpll:auto_generated|                                                                                          ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|sysclk_source:sysclk_source_inst|altpll:altpll_component|sysclk_source_altpll:auto_generated                                                                                                                                                                                                                                               ; sysclk_source_altpll              ; work         ;
-;    |usb_master:usb_master_i|                                                                                                            ; 36 (35)             ; 29 (28)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|usb_master:usb_master_i                                                                                                                                                                                                                                                                                                                    ; usb_master                        ; work         ;
+;    |usb_master:usb_master_i|                                                                                                            ; 52 (51)             ; 29 (28)                   ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|usb_master:usb_master_i                                                                                                                                                                                                                                                                                                                    ; usb_master                        ; work         ;
 ;       |USB_RAM:USB_RAM_i|                                                                                                               ; 1 (0)               ; 1 (0)                     ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|usb_master:usb_master_i|USB_RAM:USB_RAM_i                                                                                                                                                                                                                                                                                                  ; USB_RAM                           ; work         ;
 ;          |altsyncram:altsyncram_component|                                                                                              ; 1 (0)               ; 1 (0)                     ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|usb_master:usb_master_i|USB_RAM:USB_RAM_i|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                  ; altsyncram                        ; work         ;
 ;             |altsyncram_cbn1:auto_generated|                                                                                            ; 1 (1)               ; 1 (1)                     ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |prj_q5|usb_master:usb_master_i|USB_RAM:USB_RAM_i|altsyncram:altsyncram_component|altsyncram_cbn1:auto_generated                                                                                                                                                                                                                                   ; altsyncram_cbn1                   ; work         ;
@@ -1123,10 +1124,10 @@ Encoding Type:  One-Hot
 ; TM1640_driver:TM1640_PART1_i|iic_opr:iic_opr_I|scl_reg                                                                                                                                                                                                                                                                          ; 6       ;
 ; TM1640_driver:TM1640_PART1_i|iic_opr:iic_opr_I|sda_reg                                                                                                                                                                                                                                                                          ; 2       ;
 ; mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[0]                                                                                                                                                                                                                                                                               ; 6       ;
-; mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[3]                                                                                                                                                                                                                                                                               ; 6       ;
-; mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[2]                                                                                                                                                                                                                                                                               ; 8       ;
+; mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[3]                                                                                                                                                                                                                                                                               ; 7       ;
+; mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[4]                                                                                                                                                                                                                                                                               ; 10      ;
 ; mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[6]                                                                                                                                                                                                                                                                               ; 6       ;
-; mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[4]                                                                                                                                                                                                                                                                               ; 8       ;
+; mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[2]                                                                                                                                                                                                                                                                               ; 8       ;
 ; mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[1]                                                                                                                                                                                                                                                                               ; 8       ;
 ; mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[5]                                                                                                                                                                                                                                                                               ; 7       ;
 ; mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[7]                                                                                                                                                                                                                                                                               ; 9       ;
@@ -1160,42 +1161,42 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------+
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |prj_q5|BCD_switch[3]                                                      ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |prj_q5|BCD_switch[1]                                                      ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|mdio_cfg:mdio_cfg_I|bytes_count[6]                                 ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |prj_q5|read_count[9]                                                      ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |prj_q5|write_count[4]                                                     ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |prj_q5|BCD_counts[16]                                                     ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|mem_wrAddr[4] ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|mdio_cfg:mdio_cfg_I|bytes_count[7]                                 ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |prj_q5|read_count[6]                                                      ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |prj_q5|write_count[6]                                                     ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |prj_q5|BCD_counts[19]                                                     ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|mem_wrAddr[0] ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|TM1640_driver:TM1640_PART1_i|mem_wrAddr[4]                         ;
 ; 3:1                ; 11 bits   ; 22 LEs        ; 11 LEs               ; 11 LEs                 ; Yes        ; |prj_q5|usb_master:usb_master_i|wraddress[2]                               ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[8][2]                                                      ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[0][0]                                                      ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[9][0]                                                      ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[1][6]                                                      ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[10][0]                                                     ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[2][0]                                                      ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[8][3]                                                      ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[0][7]                                                      ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[9][3]                                                      ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[1][2]                                                      ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[10][7]                                                     ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[2][3]                                                      ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[11][0]                                                     ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[3][1]                                                      ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[12][0]                                                     ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[4][0]                                                      ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[13][1]                                                     ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[3][5]                                                      ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[12][5]                                                     ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[4][2]                                                      ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[13][0]                                                     ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[5][0]                                                      ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[14][0]                                                     ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[6][2]                                                      ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[15][2]                                                     ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[7][2]                                                      ;
-; 4:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; Yes        ; |prj_q5|usb_master:usb_master_i|rdaddress[0]                               ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|CMD3Count[3]  ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|TM1640_driver:TM1640_PART1_i|CMD3Count[1]                          ;
-; 4:1                ; 5 bits    ; 10 LEs        ; 0 LEs                ; 10 LEs                 ; Yes        ; |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|iic_bytes[7]  ;
-; 4:1                ; 6 bits    ; 12 LEs        ; 0 LEs                ; 12 LEs                 ; Yes        ; |prj_q5|TM1640_driver:TM1640_PART1_i|iic_bytes[5]                          ;
-; 6:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|iic_bytes[3]  ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |prj_q5|TM1640_driver:TM1640_PART1_i|iic_bytes[3]                          ;
-; 7:1                ; 8 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|iic_tdata[0]  ;
-; 7:1                ; 6 bits    ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; Yes        ; |prj_q5|TM1640_driver:TM1640_PART1_i|iic_tdata[0]                          ;
-; 7:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |prj_q5|TM1640_driver:TM1640_PART1_i|iic_tdata[3]                          ;
-; 256:1              ; 4 bits    ; 680 LEs       ; 12 LEs               ; 668 LEs                ; Yes        ; |prj_q5|mdio_cfg:mdio_cfg_I|op_code[1]                                     ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[14][1]                                                     ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[6][0]                                                      ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[15][5]                                                     ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|x_count[7][7]                                                      ;
+; 4:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; Yes        ; |prj_q5|usb_master:usb_master_i|rdaddress[8]                               ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|CMD3Count[5]  ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|TM1640_driver:TM1640_PART1_i|CMD3Count[7]                          ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 0 LEs                ; 10 LEs                 ; Yes        ; |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|iic_bytes[0]  ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 0 LEs                ; 12 LEs                 ; Yes        ; |prj_q5|TM1640_driver:TM1640_PART1_i|iic_bytes[1]                          ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|iic_bytes[1]  ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |prj_q5|TM1640_driver:TM1640_PART1_i|iic_bytes[0]                          ;
+; 7:1                ; 8 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |prj_q5|TM1640_cfg:TM1640_1_cfg|TM1640_driver:TM1640_drive_i|iic_tdata[7]  ;
+; 7:1                ; 6 bits    ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; Yes        ; |prj_q5|TM1640_driver:TM1640_PART1_i|iic_tdata[5]                          ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |prj_q5|TM1640_driver:TM1640_PART1_i|iic_tdata[1]                          ;
+; 256:1              ; 4 bits    ; 680 LEs       ; 12 LEs               ; 668 LEs                ; Yes        ; |prj_q5|mdio_cfg:mdio_cfg_I|reg_addr[1]                                    ;
 ; 256:1              ; 3 bits    ; 510 LEs       ; 6 LEs                ; 504 LEs                ; Yes        ; |prj_q5|mdio_cfg:mdio_cfg_I|reg_data[12]                                   ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[7]                  ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |prj_q5|mdio_cfg:mdio_cfg_I|mdio_opr:mdio_opr_I|counts[1]                  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------+
 
 
@@ -1659,6 +1660,16 @@ Encoding Type:  One-Hot
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: usb_master:usb_master_i ;
++----------------+----------+------------------------------------------+
+; Parameter Name ; Value    ; Type                                     ;
++----------------+----------+------------------------------------------+
+; X86_CTRL_GPIO  ; 00000101 ; Unsigned Binary                          ;
++----------------+----------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +------------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: usb_master:usb_master_i|USB_RAM:USB_RAM_i|altsyncram:altsyncram_component ;
 +------------------------------------+----------------------+------------------------------------------------------------+
@@ -1914,21 +1925,21 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     SCLR              ; 111                         ;
 ;     plain             ; 211                         ;
 ; cycloneiii_io_obuf    ; 20                          ;
-; cycloneiii_lcell_comb ; 1451                        ;
+; cycloneiii_lcell_comb ; 1485                        ;
 ;     arith             ; 521                         ;
 ;         2 data inputs ; 444                         ;
 ;         3 data inputs ; 77                          ;
-;     normal            ; 930                         ;
+;     normal            ; 964                         ;
 ;         0 data inputs ; 29                          ;
 ;         1 data inputs ; 61                          ;
 ;         2 data inputs ; 61                          ;
-;         3 data inputs ; 232                         ;
-;         4 data inputs ; 547                         ;
+;         3 data inputs ; 262                         ;
+;         4 data inputs ; 551                         ;
 ; cycloneiii_pll        ; 1                           ;
 ; cycloneiii_ram_block  ; 16                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 7.00                        ;
-; Average LUT depth     ; 3.14                        ;
+; Max LUT depth         ; 6.30                        ;
+; Average LUT depth     ; 3.12                        ;
 +-----------------------+-----------------------------+
 
 
@@ -2198,7 +2209,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
-    Info: Processing started: Tue Dec 17 08:52:25 2019
+    Info: Processing started: Thu Dec 26 08:48:47 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off prj_q5 -c prj_q5
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -2269,8 +2280,8 @@ Info (12127): Elaborating entity "prj_q5" for the top level hierarchy
 Warning (10036): Verilog HDL or VHDL warning at prj_q5.v(214): object "sedBytes" assigned a value but never read File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 214
 Warning (10858): Verilog HDL warning at prj_q5.v(229): object mdio_revData used but never assigned File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 229
 Warning (10036): Verilog HDL or VHDL warning at prj_q5.v(233): object "x0_enable" assigned a value but never read File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 233
-Warning (10036): Verilog HDL or VHDL warning at prj_q5.v(702): object "usb_count" assigned a value but never read File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 702
-Warning (10762): Verilog HDL Case Statement warning at prj_q5.v(566): can't check case statement for completeness because the case expression has too many possible states File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 566
+Warning (10036): Verilog HDL or VHDL warning at prj_q5.v(721): object "usb_count" assigned a value but never read File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 721
+Warning (10762): Verilog HDL Case Statement warning at prj_q5.v(569): can't check case statement for completeness because the case expression has too many possible states File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 569
 Warning (10030): Net "mdio_revData.0000000000000000" at prj_q5.v(229) has no driver or initial value, using a default initial value '0' File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 229
 Warning (10034): Output port "RESIN" at prj_q5.v(60) has no driver File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 60
 Warning (10034): Output port "POWER_STBY" at prj_q5.v(61) has no driver File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 61
@@ -2285,7 +2296,7 @@ Warning (10034): Output port "EC2_PHY_RST" at prj_q5.v(87) has no driver File: E
 Warning (10034): Output port "EC1_PHY_RST" at prj_q5.v(88) has no driver File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 88
 Warning (10034): Output port "STKT_RST" at prj_q5.v(89) has no driver File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 89
 Warning (10034): Output port "FPGA_RST_USBHUB" at prj_q5.v(90) has no driver File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 90
-Info (12128): Elaborating entity "sysclk_source" for hierarchy "sysclk_source:sysclk_source_inst" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 279
+Info (12128): Elaborating entity "sysclk_source" for hierarchy "sysclk_source:sysclk_source_inst" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 282
 Info (12128): Elaborating entity "altpll" for hierarchy "sysclk_source:sysclk_source_inst|altpll:altpll_component" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP/sysclk_source.v Line: 106
 Info (12130): Elaborated megafunction instantiation "sysclk_source:sysclk_source_inst|altpll:altpll_component" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP/sysclk_source.v Line: 106
 Info (12133): Instantiated megafunction "sysclk_source:sysclk_source_inst|altpll:altpll_component" with the following parameter: File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/QIP/sysclk_source.v Line: 106
@@ -2359,12 +2370,12 @@ Info (12133): Instantiated megafunction "sysclk_source:sysclk_source_inst|altpll
 Info (12021): Found 1 design units, including 1 entities, in source file db/sysclk_source_altpll.v
     Info (12023): Found entity 1: sysclk_source_altpll File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/db/sysclk_source_altpll.v Line: 29
 Info (12128): Elaborating entity "sysclk_source_altpll" for hierarchy "sysclk_source:sysclk_source_inst|altpll:altpll_component|sysclk_source_altpll:auto_generated" File: d:/intelfpga/17.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
-Info (12128): Elaborating entity "TM1640_driver" for hierarchy "TM1640_driver:TM1640_PART1_i" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 679
+Info (12128): Elaborating entity "TM1640_driver" for hierarchy "TM1640_driver:TM1640_PART1_i" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 698
 Warning (10036): Verilog HDL or VHDL warning at TM1640_driver.v(36): object "mem_rdAddr" assigned a value but never read File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_driver.v Line: 36
 Info (12128): Elaborating entity "iic_opr" for hierarchy "TM1640_driver:TM1640_PART1_i|iic_opr:iic_opr_I" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_driver.v Line: 281
 Warning (10230): Verilog HDL assignment warning at iic_opr.v(81): truncated value with size 32 to match size of target (16) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/IIC/iic_opr.v Line: 81
 Info (10264): Verilog HDL Case Statement information at iic_opr.v(177): all case item expressions in this case statement are onehot File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/IIC/iic_opr.v Line: 177
-Info (12128): Elaborating entity "TM1640_cfg" for hierarchy "TM1640_cfg:TM1640_1_cfg" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 694
+Info (12128): Elaborating entity "TM1640_cfg" for hierarchy "TM1640_cfg:TM1640_1_cfg" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 713
 Warning (10230): Verilog HDL assignment warning at TM1640_cfg.v(82): truncated value with size 112 to match size of target (8) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_cfg.v Line: 82
 Warning (10230): Verilog HDL assignment warning at TM1640_cfg.v(86): truncated value with size 112 to match size of target (8) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_cfg.v Line: 86
 Warning (10230): Verilog HDL assignment warning at TM1640_cfg.v(90): truncated value with size 112 to match size of target (8) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_cfg.v Line: 90
@@ -2376,11 +2387,11 @@ Warning (10230): Verilog HDL assignment warning at TM1640_cfg.v(110): truncated 
 Warning (10230): Verilog HDL assignment warning at TM1640_cfg.v(114): truncated value with size 112 to match size of target (8) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_cfg.v Line: 114
 Warning (10230): Verilog HDL assignment warning at TM1640_cfg.v(118): truncated value with size 112 to match size of target (8) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_cfg.v Line: 118
 Warning (10230): Verilog HDL assignment warning at TM1640_cfg.v(123): truncated value with size 112 to match size of target (8) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/TM1640/TM1640_cfg.v Line: 123
-Info (12128): Elaborating entity "usb_master" for hierarchy "usb_master:usb_master_i" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 744
-Warning (10036): Verilog HDL or VHDL warning at usb_master.v(35): object "WR_N_dly" assigned a value but never read File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v Line: 35
-Warning (10230): Verilog HDL assignment warning at usb_master.v(111): truncated value with size 13 to match size of target (11) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v Line: 111
-Warning (10230): Verilog HDL assignment warning at usb_master.v(160): truncated value with size 13 to match size of target (11) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v Line: 160
-Info (12128): Elaborating entity "USB_RAM" for hierarchy "usb_master:usb_master_i|USB_RAM:USB_RAM_i" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v Line: 69
+Info (12128): Elaborating entity "usb_master" for hierarchy "usb_master:usb_master_i" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 774
+Warning (10036): Verilog HDL or VHDL warning at usb_master.v(45): object "WR_N_dly" assigned a value but never read File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v Line: 45
+Warning (10230): Verilog HDL assignment warning at usb_master.v(130): truncated value with size 13 to match size of target (11) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v Line: 130
+Warning (10230): Verilog HDL assignment warning at usb_master.v(179): truncated value with size 13 to match size of target (11) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v Line: 179
+Info (12128): Elaborating entity "USB_RAM" for hierarchy "usb_master:usb_master_i|USB_RAM:USB_RAM_i" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v Line: 88
 Info (12128): Elaborating entity "altsyncram" for hierarchy "usb_master:usb_master_i|USB_RAM:USB_RAM_i|altsyncram:altsyncram_component" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.v Line: 93
 Info (12130): Elaborated megafunction instantiation "usb_master:usb_master_i|USB_RAM:USB_RAM_i|altsyncram:altsyncram_component" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.v Line: 93
 Info (12133): Instantiated megafunction "usb_master:usb_master_i|USB_RAM:USB_RAM_i|altsyncram:altsyncram_component" with the following parameter: File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/USB_RAM.v Line: 93
@@ -2406,7 +2417,7 @@ Info (12133): Instantiated megafunction "usb_master:usb_master_i|USB_RAM:USB_RAM
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_cbn1.tdf
     Info (12023): Found entity 1: altsyncram_cbn1 File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/db/altsyncram_cbn1.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_cbn1" for hierarchy "usb_master:usb_master_i|USB_RAM:USB_RAM_i|altsyncram:altsyncram_component|altsyncram_cbn1:auto_generated" File: d:/intelfpga/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
-Info (12128): Elaborating entity "mdio_cfg" for hierarchy "mdio_cfg:mdio_cfg_I" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 824
+Info (12128): Elaborating entity "mdio_cfg" for hierarchy "mdio_cfg:mdio_cfg_I" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 854
 Warning (10230): Verilog HDL assignment warning at mdio_cfg.v(39): truncated value with size 8 to match size of target (5) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_cfg.v Line: 39
 Warning (10230): Verilog HDL assignment warning at mdio_cfg.v(197): truncated value with size 8 to match size of target (5) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_cfg.v Line: 197
 Warning (10230): Verilog HDL assignment warning at mdio_cfg.v(203): truncated value with size 8 to match size of target (5) File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/MDIO/mdio_cfg.v Line: 203
@@ -2437,7 +2448,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr
     Info (12023): Found entity 1: cmpr_ggc File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/db/cmpr_ggc.tdf Line: 22
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "auto_signaltap_0"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2019.12.17.08:52:44 Progress: Loading sldc5cb7817/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2019.12.26.08:49:07 Progress: Loading sldc5cb7817/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -2544,18 +2555,18 @@ Warning (21074): Design contains 12 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "TEMP_ALERT" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 135
     Warning (15610): No output dependent on input pin "TEMP_CRIT_OUT" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 136
     Warning (15610): No output dependent on input pin "FPGA_I2C1_LED_INT" File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 138
-Info (21057): Implemented 4108 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 4142 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 48 input pins
     Info (21059): Implemented 51 output pins
     Info (21060): Implemented 20 bidirectional pins
-    Info (21061): Implemented 3866 logic cells
+    Info (21061): Implemented 3900 logic cells
     Info (21064): Implemented 121 RAM segments
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 144 warnings
-    Info: Peak virtual memory: 745 megabytes
-    Info: Processing ended: Tue Dec 17 08:52:56 2019
+    Info: Peak virtual memory: 751 megabytes
+    Info: Processing ended: Thu Dec 26 08:49:18 2019
     Info: Elapsed time: 00:00:31
-    Info: Total CPU time (on all processors): 00:00:53
+    Info: Total CPU time (on all processors): 00:00:54
 
 
 +------------------------------------------+

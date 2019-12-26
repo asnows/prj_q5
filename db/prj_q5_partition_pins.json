@@ -260,55 +260,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "FAN_Feedback",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_XIN[13]",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_XIN[5]",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_XIN[14]",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_XIN[6]",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_XIN[12]",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_XIN[4]",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_XIN[15]",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_XIN[7]",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_XIN[10]",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_XIN[2]",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_nRST",
-					"strict" : false
-				},
-				{
-					"name" : "FPGA_XIN[9]",
+					"name" : "FPGA_XIN[0]",
 					"strict" : false
 				},
 				{
@@ -316,11 +268,39 @@
 					"strict" : false
 				},
 				{
+					"name" : "FPGA_XIN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[7]",
+					"strict" : false
+				},
+				{
 					"name" : "FPGA_XIN[8]",
 					"strict" : false
 				},
 				{
-					"name" : "FPGA_XIN[0]",
+					"name" : "FPGA_XIN[9]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[10]",
 					"strict" : false
 				},
 				{
@@ -328,7 +308,27 @@
 					"strict" : false
 				},
 				{
-					"name" : "FPGA_XIN[3]",
+					"name" : "FPGA_XIN[12]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[13]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[14]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_XIN[15]",
+					"strict" : false
+				},
+				{
+					"name" : "FAN_Feedback",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_nRST",
 					"strict" : false
 				},
 				{
