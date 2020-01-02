@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Thu Dec 26 08:49:18 2019
+Analysis & Synthesis Status : Successful - Thu Jan 02 10:49:26 2020
 Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
 Revision Name : prj_q5
 Top-level Entity Name : prj_q5
 Family : Cyclone 10 LP
-Total logic elements : 3,877
-    Total combinational functions : 2,320
-    Dedicated logic registers : 2,684
-Total registers : 2684
+Total logic elements : 4,105
+    Total combinational functions : 2,397
+    Dedicated logic registers : 2,897
+Total registers : 2897
 Total pins : 115
 Total virtual pins : 0
-Total memory bits : 462,848
+Total memory bits : 524,288
 Embedded Multiplier 9-bit elements : 0
 Total PLLs : 1

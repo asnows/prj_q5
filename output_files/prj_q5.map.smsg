@@ -1,3 +1,3 @@
-Info (10281): Verilog HDL Declaration information at usb_master.v(13): object "DATA" differs only in case from object "data" in the same scope File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v Line: 13
+Info (10281): Verilog HDL Declaration information at usb_master.v(14): object "DATA" differs only in case from object "data" in the same scope File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/USB/usb_master.v Line: 14
 Warning (10268): Verilog HDL information at iic_opr.v(53): always construct contains both blocking and non-blocking assignments File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/IIC/iic_opr.v Line: 53
 Info (10281): Verilog HDL Declaration information at prj_q5.v(201): object "LOOP_DATA" differs only in case from object "loop_data" in the same scope File: E:/WorkSpace/project/FPGA/prj_q5/prj_q5/src/prj_q5.v Line: 201
